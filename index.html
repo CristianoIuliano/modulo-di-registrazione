@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrati al mio sito</title>
+    <link rel="stylesheet" href="css/modulo.css">
+    <!--<script src="script/modulo.js"></script>-->
+    <!--<script src="script/modulo2.js"></script>-->
+    <script src="script/moduloCiclo.js"></script>
+</head>
+<body>
+    
+    <h1>Registrati al mio sito web</h1>
+
+    <form action="pagina.jsp" method="post">
+        <div>
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" autocomplete="off" data-min="3">
+            <span></span>
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="text" id="email" name="mail" autocomplete="off" data-min="8">
+            <span></span>
+        </div> 
+        <div>
+            <label for="pass">Password</label>
+            <input type="password" id="pass" name="password" data-min="6">
+            <span></span>
+        </div>
+        <div>
+            <input type="checkbox" id="privacy" name="privacy" data-min="0">
+            <label for="privacy">Accetto le condizioni di utilizzo</label>
+            <span></span>
+        </div>
+        <div>
+            <!--<input type="submit" value="REGISTRATI">-->
+            <button class="errore">Registrati</button>
+        </div>
+
+    </form>
+
+
+</body>
+</html>
